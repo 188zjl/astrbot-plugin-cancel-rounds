@@ -1,0 +1,8 @@
+{
+  "custom_commands": {
+    "description": "自定义命令别名",
+    "hint": "支持逗号或换行分隔，例如 撤回轮次,删除轮次。这里配置的别名属于额外消息入口，不一定会出现在平台 slash 命令自动补全中。",
+    "type": "string",
+    "default": ""
+  }
+}
