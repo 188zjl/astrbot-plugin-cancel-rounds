@@ -2,6 +2,6 @@ name: astrbot_plugin_cancel_rounds
 display_name: 删除最近轮次
 desc: 删除当前会话最近几轮聊天记录，1 轮按 1 问 1 答计算。
 help: 使用 /cancel 或 /cancel 2，也可配置自定义别名。
-version: v1.0.0
+version: v1.0.1
 author: Codex
 repo: https://github.com/188zjl/astrbot-plugin-cancel-rounds

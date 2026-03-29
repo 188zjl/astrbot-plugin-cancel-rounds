@@ -124,7 +124,7 @@ class CancelRoundsPlugin(Star):
 
         return self._stop_plain_result(
             event,
-            f"已删除最近 {removed_rounds} 轮聊天，删除前共 {total_rounds} 轮。",
+            f"已删除 {removed_rounds} 条信息。",
         )
 
     @filter.command(DEFAULT_COMMAND)
