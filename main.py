@@ -16,7 +16,7 @@ CUSTOM_COMMAND_REGEX = r"^[/／][^\s]+(?:\s+.*)?$"
     PLUGIN_ID,
     "Codex",
     "删除当前会话最近几轮聊天记录，1 轮按 1 问 1 答计算。",
-    "1.0.0",
+    "1.0.3",
 )
 class CancelRoundsPlugin(Star):
     def __init__(self, context: Context, config: dict[str, Any]):
